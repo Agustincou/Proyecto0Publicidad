@@ -66,12 +66,16 @@ pointIndex = 0
 dst_logo = [0,0]
 frameIndex = 0
 
-cap = cv2.VideoCapture('/home/cou/Escritorio/Vivo TV Publica-3.mp4')
+cap = cv2.VideoCapture('/home/cou/Escritorio/Vivo TV Pública-3.mp4')
 
 #------------QUITARLO SI SE UTILIZA UN ARCHIVO DE VIDEO O UNA FILMACION CON UN AJUSTE DE BRILLO FIJO---------------------------------------
 for i in range(1,25): #Se toman 25 frames para que se autoajuste el brillo y se vea una imagen clara y estable al tomar la muestra del logo
 	ret, img = cap.read()
+if ret == False:
+	print "No se ha podido leer el archivo de video"
+	os._exit(0)
 #------------------------------------------------------------------------------------------------------------------------------------------
+
 
 #-----------------------------------VARIABLES AJUSTABLES--------------------------------------------------------------------------
 MARGEN_SUPERIOR = 40
