@@ -8,7 +8,7 @@
   El script correrá en la PC, la cual puede obtener las imágenes de la TV ya sea por una camara web o archivo de video pregrabado(métodos implementados en el código). También podrían obtenerse las imágenes de transmisiones streaming de video (habria que modificar un poco el código en este caso)
   
 cap = cv2.VideoCapture(0) #Webcam
-ó
+
 cap = cv2.VideoCapture('/home/cou/Escritorio/Vivo TV Publica-3.mp4') #Archivo de Video
 
 La PC al detectar que ha comenzado el espacio publicitario (al dejar de detectar el logo del canal) realizará una determinada acción. En este caso se pensó en reproducir un video de Youtube que desee el usuario/programador. Por el momento la reproducción del video se produce únicamente en la PC utilizando la aplicación mps-youtube que permite mediante comandos de consola reproducir cualquier video de Youtube.
