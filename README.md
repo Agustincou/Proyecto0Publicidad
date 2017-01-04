@@ -1,7 +1,10 @@
 # Proyecto0Publicidad
  
   Script Python que hace uso de OpenCV para la detección de logos de un canal de TV para diferenciar entre los programas y el espacio publicitario.
-
+  Se ha visto que en la mayoría de los canales de televisión (al menos en Argentina), cuando pasan al espacio publicitario, el logo del canal desaparece y vuelve a aparecer cuando regresa la transmisión del programa en cuestión. Entonces si detectamos la presencia o ausencia del mismo podemos diferenciar los programas de TV de la publicidad y actuar en consecuencia.
+  Se propone reproducir videos de Youtube que sean del agrado del televidente durante los espacios publicitarios.
+  
+  
 <h1>Implementación Casera</h1>
 ![Alt text](https://github.com/Agustincou/Proyecto0Publicidad/blob/master/Expicativo%20Proyecto%200P.png "Posible Implementación Casera")
 
