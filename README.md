@@ -4,10 +4,13 @@
   Se ha visto que en la mayoría de los canales de televisión (al menos en Argentina), cuando pasan al espacio publicitario, el logo del canal desaparece y vuelve a aparecer cuando regresa la transmisión del programa en cuestión. Entonces si detectamos la presencia o ausencia del mismo podemos diferenciar los programas de TV de la publicidad y actuar en consecuencia.
   Se propone reproducir videos de Youtube que sean del agrado del televidente durante los espacios publicitarios.
 <h2>Demo del Software <h2>
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/UtuXIn8M9vY/0.jpg)](https://www.youtube.com/watch?v=UtuXIn8M9vY)
+
+![https://www.youtube.com/watch?v=UtuXIn8M9vY](https://img.youtube.com/vi/UtuXIn8M9vY/0.jpg)
+[Video demostración](https://www.youtube.com/watch?v=UtuXIn8M9vY)
   
 <h1>Implementación Casera Propuesta</h1>
-![Alt text](https://github.com/Agustincou/Proyecto0Publicidad/blob/master/Expicativo%20Proyecto%200P.png "Posible Implementación Casera")
+
+[Posible Implementación Casera](https://github.com/Agustincou/Proyecto0Publicidad/blob/master/Expicativo%20Proyecto%200P.png)
 
   El script correrá en la PC, la cual puede obtener las imágenes de la TV ya sea por una camara web o archivo de video pregrabado(métodos implementados en el código). También podrían obtenerse las imágenes de transmisiones streaming de video (habria que modificar un poco el código en este caso)
   
