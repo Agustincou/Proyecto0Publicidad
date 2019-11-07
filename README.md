@@ -28,12 +28,12 @@ En caso de no tener este comportamiento del conmutador, podría implementarse un
 
 <h1>Cablevisión Flow</h1>
  Puede que resulte engorrosa o costosa la implementación propuesta anteriormente, pero cada vez más se tienen a disposición live streaming de canales de TV, por ejemplo mediante la aplicación de Cablevisión llamada "Flow"
-![Alt text](http://www.aletecno.com.ar/imagenes/cablevision-flow-plataforma-de-contenidos-online-cablevision-flow/1-pr.jpg "Cablevisión Flow")
  
  De esta manera se tendría acceso a las imágenes ya digitalizadas y en alta calidad. Haria falta un pequeño ajuste en el script para tomar dichos streamings de video como entradas para procesarlos.
  
 <h1>HDMI Recorder</h1>
-![Alt text](http://www.datapro.net/images/HDR-100.jpg "HDMI Recorder")
+
+![HDMI Recorder](http://www.datapro.net/images/HDR-100.jpg)
  
  Otra opción es ir grabando la señal HDMI de la TV, procesarla en la PC y enviarla luego a la TV. Ésto podría incrementar el delay entre la transmisión en vivo y lo que el usuario ve. Además el costo de éste tipo de aparatos suele ser elevado
  
